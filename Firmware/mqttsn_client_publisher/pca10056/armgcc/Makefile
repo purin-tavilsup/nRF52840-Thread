@@ -2,8 +2,8 @@ PROJECT_NAME     := thread_mqtt_sn_client_publisher_pca10056
 TARGETS          := nrf52840_xxaa
 OUTPUT_DIRECTORY := _build
 
-SDK_ROOT := ../../../../../..
-PROJ_DIR := ../../..
+SDK_ROOT := ../../../../../Thread_SDK_4_1_0
+PROJ_DIR := ../..
 
 $(OUTPUT_DIRECTORY)/nrf52840_xxaa.out: \
   LINKER_SCRIPT  := thread_mqtt_sn_client_publisher_gcc_nrf52.ld

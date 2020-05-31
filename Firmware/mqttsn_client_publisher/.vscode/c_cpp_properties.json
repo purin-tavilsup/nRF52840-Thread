@@ -1,6 +1,6 @@
 {
     "env": {
-        "nrfSDK": "D:\\Workspace\\nRF52840_Thread_SDK_v4.1.0"
+        "nrfSDK": "D:\\Workspace\\Git\\nRF52840\\Thread_SDK_4_1_0"
     },
     "configurations": [
         {
@@ -32,8 +32,7 @@
                 "${nrfSDK}/modules/nrfx/drivers/include",
                 "${nrfSDK}/external/openthread",
                 "${nrfSDK}/external/openthread/include",
-                "${nrfSDK}/external/openthread/include/openthread",
-                "F:/Program Files (x86)/GNU Tools Arm Embedded/9 2019-q4-major/arm-none-eabi/include"
+                "${nrfSDK}/external/openthread/include/openthread"
             ],
             "defines": [
                 "BOARD_PCA10056",
@@ -45,7 +44,7 @@
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "F:\\Program Files (x86)\\GNU Tools Arm Embedded\\9 2019-q4-major\\bin\\arm-none-eabi-gcc.exe",
+            "compilerPath": "D:\\Workspace\\Git\\nRF52840\\GNU_Tools\\bin\\arm-none-eabi-gcc.exe",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "clang-x64"
